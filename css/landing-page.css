@@ -105,12 +105,12 @@ h6 {
 
 .section-heading-spacer {
     float: left;
-    width: 95px;
+    width: 200px;
     border-top: 3px solid #e7e7e7;
 }
 
 .banner {
-    padding: 150px 0;
+    padding: 95px 0;
     color: #f8f8f8;
     background: url(tamuHackBanner.jpg) no-repeat center center;
     background-size: cover;
