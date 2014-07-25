@@ -110,7 +110,7 @@ h6 {
 }
 
 .banner {
-    padding: 200px 100;
+    padding: 200px 0;
     color: #f8f8f8;
     background: url(tamuHackBanner.jpg) no-repeat center center;
     background-size: cover;
