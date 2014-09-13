@@ -496,6 +496,10 @@ body > .header .logo .icon {
   height: 5px;
 }
 
+#move_down {
+  padding-top:1em;
+}
+
 .dropdown-menu {
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
