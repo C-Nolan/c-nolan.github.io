@@ -505,7 +505,7 @@
                                     <li>
                                 <div id = "dummy"><form class="form-inline" role="form">
                                     <label>
-                                            <input type="checkbox" onclick ="removeDummy()"> Abomol
+                                            <input type="checkbox" onclick ="removeDummy();"> Abomol
                                         </label>
                                     <div class="form-group">
                                         <label class="sr-only" for="exampleInputEmail2">Email address</label>
@@ -519,10 +519,11 @@
                                             </select>
                                         </li> 
                                     </div>
+                                    <div id = "dummy2">
 
                                        <li> <form class="form-inline" role="form">
                                     <label>
-                                            <input type="checkbox"> Singulair
+                                            <input type="checkbox" onclick = "removeDummy();"> Singulair
                                         </label>
                                     <div class="form-group">
                                         <label class="sr-only" for="exampleInputEmail2">Email address</label>
@@ -541,6 +542,7 @@
                         </li>
                                 </form>
                             </ul>
+                        </div>
                                   <ul>
                                     <li><h2 class="panel-title">Activity</h2></li>
                                     <li>
