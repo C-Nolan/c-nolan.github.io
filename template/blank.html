@@ -506,14 +506,13 @@
                                         <h2 class="panel-title">Medications</h2>
                                     </li>
                                     <li>
-                                        <div>
+                                        <div id = "Abomol">
                                             <form class="form-inline" role="form">
                                             <label>
-                                                <input type="checkbox" onclick = "remove" > Abomol
+                                                <a href = "#"><input type="checkbox">Abomol</a> 
                                             </label>
                                             <script>
-                                                $( "remove" ).click(function() {
-                                                $( "Abomol" ).remove();});
+                                                $("Abomol a").click(function(){$(this).parent().remove();});
                                             </script>
                                             <div class="form-group">
                                                 <label class="sr-only" for="value">Medicine
