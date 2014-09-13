@@ -20,6 +20,13 @@ $(function() {
         }
     });
 
+    //Remove Dummy function
+    function removeDummy() {
+    var elem = document.getElementById('dummy');
+    elem.parentNode.removeChild(elem);
+    return false;
+}
+
     //Add hover support for touch devices
     $('.btn').bind('touchstart', function() {
         $(this).addClass('hover');

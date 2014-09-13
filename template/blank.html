@@ -503,9 +503,9 @@
                                 <ul>
                                     <li><h2 class="panel-title">Medications</h2></li>
                                     <li>
-                                <form class="form-inline" role="form">
+                                <div id = "dummy"><form class="form-inline" role="form">
                                     <label>
-                                            <input type="checkbox"> Abomol
+                                            <input type="checkbox" onclick ="removeDummy()"> Abomol
                                         </label>
                                     <div class="form-group">
                                         <label class="sr-only" for="exampleInputEmail2">Email address</label>
@@ -518,6 +518,7 @@
                                                 <option>Twice a day</option>
                                             </select>
                                         </li> 
+                                    </div>
 
                                        <li> <form class="form-inline" role="form">
                                     <label>
@@ -566,7 +567,7 @@
 
                                     <div class="form-group">
                                         <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                                        
+
                                         <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Amount">
                                     </div>
 
