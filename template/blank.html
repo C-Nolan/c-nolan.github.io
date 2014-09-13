@@ -508,8 +508,12 @@
                                         <div>
                                             <form class="form-inline" role="form">
                                             <label>
-                                                <input type="checkbox" > Abomol
+                                                <input type="checkbox" onclick = "remove" > Abomol
                                             </label>
+                                            <script>
+                                                $( "remove" ).click(function() {
+                                                $( "Abomol" ).remove();});
+                                            </script>
                                             <div class="form-group">
                                                 <label class="sr-only" for="value">Medicine
                                                 </label>
